@@ -17,16 +17,16 @@ export function BusinessDashboard() {
   return (
     <div className="dashboard-shell business-shell">
       <aside className="dashboard-sidebar">
-        <div className="brand dashboard-brand" href="/">
+        <a className="brand dashboard-brand" href="#/">
           <span className="brand-mark">Y</span>
           <span>Yatra<span className="brand-accent">AI</span></span>
-        </div>
+        </a>
 
         <nav className="dashboard-nav" aria-label="Business dashboard navigation">
-          <a href="/business" className="active">Overview</a>
-          <a href="/planner">Plan a trip</a>
-          <a href="/explore">Discover</a>
-          <a href="/admin">Admin view</a>
+          <a href="#/business" className="active">Overview</a>
+          <a href="#/planner">Plan a trip</a>
+          <a href="#/explore">Discover</a>
+          <a href="#/admin">Admin view</a>
         </nav>
       </aside>
 
